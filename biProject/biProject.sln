@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "biProject", "biProject.dtproj", "{7F677B17-FAD4-4E74-B2A6-A0E62E1BAA6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F677B17-FAD4-4E74-B2A6-A0E62E1BAA6B}.Development|Default.ActiveCfg = Development
+		{7F677B17-FAD4-4E74-B2A6-A0E62E1BAA6B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1F80E2-F513-434E-AFF0-09B948B9C63F}
+	EndGlobalSection
+EndGlobal
