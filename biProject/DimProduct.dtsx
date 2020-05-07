@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{F4EE5386-B9C4-4DDA-A4E4-CEC5E35EC14B}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{2F0D5C49-84BF-4DA8-B9EB-24115D1610E8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -612,6 +612,215 @@
               DTS:TextQualified="True"
               DTS:ObjectName="Profit"
               DTS:DTSID="{2CF3094B-3BDC-41DA-A365-B3B2BC823420}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 11]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{6F515F6F-7603-488F-892E-64AA4F321776}"
+      DTS:ObjectName="Flat File Connection Manager 11">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\uni\bi\lab\team project\Business-Intelligence-Project\superstore.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID"
+              DTS:DTSID="{54925522-34A3-41FD-AD23-15BB9B5A4878}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Order ID"
+              DTS:DTSID="{A8A6AEBF-4B3D-49BB-B248-9BE4440AAD19}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Order Date"
+              DTS:DTSID="{79E5FC04-0B52-4DE2-8449-4AE681F799F8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Ship Date"
+              DTS:DTSID="{42178A08-572F-4728-929B-DA40917B5B27}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Ship Mode"
+              DTS:DTSID="{B6E7B3AC-00EB-4895-AC89-CBB69293F613}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Customer ID"
+              DTS:DTSID="{738D99E1-0668-4B79-8855-253CB6A4D631}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Customer Name"
+              DTS:DTSID="{4C133F9B-9AA0-4382-9E6C-BFC8CBA7DCB2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Segment"
+              DTS:DTSID="{620FECA6-3313-4873-B8B6-B6EFDD3434F3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Country"
+              DTS:DTSID="{A28A4D5D-3304-4DB3-80EE-460A4E4A9361}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City"
+              DTS:DTSID="{9B295935-0D0F-4053-9CAD-B10794D1D140}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="State"
+              DTS:DTSID="{1BD25CCC-9370-4444-AE84-241B6B881569}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Postal Code"
+              DTS:DTSID="{E5ADE7FC-CC26-4A20-A064-6230FA4C069F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Region"
+              DTS:DTSID="{1E589A7B-635B-4A93-85F5-9CD09E61E00D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Product ID"
+              DTS:DTSID="{05684501-C0DE-4FCE-9311-4A8DBE03D172}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Category"
+              DTS:DTSID="{D9EB6794-5E81-4747-B427-1EB6C86653EA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sub-Category"
+              DTS:DTSID="{D6BDE972-B493-4182-9BAF-9E7CBC410166}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Product Name"
+              DTS:DTSID="{30635EAE-A6FD-46AC-9C2F-4078396F1AF7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sales"
+              DTS:DTSID="{64E7E036-E873-47F8-BB73-690CA8557CED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantity"
+              DTS:DTSID="{720858D3-41B3-43AC-B302-F50B59E4401A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Discount"
+              DTS:DTSID="{25731B6C-464D-47B4-BC6F-7E2C910CDF5E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Profit"
+              DTS:DTSID="{3F2F1698-7B07-423D-9957-22E7F3ADB3A8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2502,13 +2711,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Load CSV File"
+      DTS:refId="Package\Load DimCustomer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{0C7CAC71-5667-4789-B483-7CA38249F885}"
+      DTS:DTSID="{CB752E54-D151-47B5-8A81-191C8F64D8F7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Load CSV File"
+      DTS:ObjectName="Load DimCustomer"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -2516,7 +2725,1145 @@
           version="1">
           <components>
             <component
-              refId="Package\Load CSV File\Flat File Source 1"
+              refId="Package\Load DimCustomer\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input].Columns[firstname]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="firstname"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[firstname]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input].Columns[lastname]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="lastname"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[lastname]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of firstname]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of firstname]"
+                      name="Copy of firstname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[firstname]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of lastname]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of lastname]"
+                      name="Copy of lastname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[lastname]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load DimCustomer\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load DimCustomer\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load DimCustomer\Derived Column.Inputs[Derived Column Input].Columns[Customer Name]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Customer Name"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer Name]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load DimCustomer\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[firstname]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[firstname]"
+                      name="firstname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[TOKEN](#{Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer Name]}," ",1)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TOKEN([Customer Name]," ",1)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[lastname]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[lastname]"
+                      name="lastname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[TOKEN](#{Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer Name]}," ",2)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TOKEN([Customer Name]," ",2)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load DimCustomer\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load DimCustomer\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load DimCustomer\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 11]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 11]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer ID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Customer ID]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer ID]"
+                      name="Customer ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer Name]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Customer Name]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer Name]"
+                      name="Customer Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Segment]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Segment]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Segment]"
+                      name="Segment"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[City]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[City]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Postal Code]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Postal Code]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Postal Code]"
+                      name="Postal Code"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[State]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[State]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[State]"
+                      name="State"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Region]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Region]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      name="ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Order ID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Order ID]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Order ID]"
+                      name="Order ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Order Date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Order Date]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Order Date]"
+                      name="Order Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Ship Date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Ship Date]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Ship Date]"
+                      name="Ship Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Ship Mode]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Ship Mode]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Ship Mode]"
+                      name="Ship Mode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Product ID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Product ID]"
+                      name="Product ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Category]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Category]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Category]"
+                      name="Category"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Sub-Category]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Sub-Category]"
+                      name="Sub-Category"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Product Name]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Product Name]"
+                      name="Product Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Sales]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Sales]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Sales]"
+                      name="Sales"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Discount]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Discount]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Discount]"
+                      name="Discount"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Profit]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Profit]"
+                      length="500"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Profit]"
+                      name="Profit"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Order ID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Order ID" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Order Date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Order Date" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Ship Date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Ship Date" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Ship Mode]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Ship Mode" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Customer ID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Customer ID" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Customer Name]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Customer Name" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Segment]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Segment" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[City]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[State]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="State" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Postal Code]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Postal Code" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Region]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Product ID" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Category]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Category" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Sub-Category" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Product Name" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Sales]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Sales" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Discount]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Discount" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Profit]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="Profit" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load DimCustomer\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Customer]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">65001</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load DimCustomer\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-3USNT1B.biproject]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-3USNT1B.biproject]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Segment]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Segment"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[segment]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Segment]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Country]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[country]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Country]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[City]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[City]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Region]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[region]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="ID"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[ID]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[firstname]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="firstname"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[firstName]"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[firstname]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[lastname]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="lastname"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lastName]"
+                      lineageId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[lastname]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[State]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="State"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customerState]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[State]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Postal Code]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Postal Code"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[postalCode]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Postal Code]" />
+                    <inputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Customer ID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="500"
+                      cachedName="Customer ID"
+                      externalMetadataColumnId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customerID]"
+                      lineageId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output].Columns[Customer ID]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customerID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="customerID" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[postalCode]"
+                      dataType="i4"
+                      name="postalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[segment]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="segment" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[country]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="country" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[customerState]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="customerState" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[region]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="region" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[firstName]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="firstName" />
+                    <externalMetadataColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lastName]"
+                      codePage="65001"
+                      dataType="str"
+                      length="500"
+                      name="lastName" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load DimCustomer.Paths[Data Conversion Output]"
+              endId="Package\Load DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\Load DimCustomer\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Load DimCustomer.Paths[Derived Column Output]"
+              endId="Package\Load DimCustomer\Data Conversion.Inputs[Data Conversion Input]"
+              name="Derived Column Output"
+              startId="Package\Load DimCustomer\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load DimCustomer.Paths[Flat File Source Output]"
+              endId="Package\Load DimCustomer\Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Load DimCustomer\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load DimProduct"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{0C7CAC71-5667-4789-B483-7CA38249F885}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load DimProduct"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load DimProduct\Flat File Source 1"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
@@ -2536,25 +3883,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load CSV File\Flat File Source 1.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 9]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 9]"
+                  refId="Package\Load DimProduct\Flat File Source 1.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 11]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 11]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output]"
+                  refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
-                      length="50"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]"
+                      externalMetadataColumnId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
+                      length="500"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]"
                       name="Product Name"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2569,14 +3916,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
-                      length="50"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]"
+                      externalMetadataColumnId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
+                      length="500"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]"
                       name="Sub-Category"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2591,14 +3938,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Category]"
-                      length="50"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]"
+                      externalMetadataColumnId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Category]"
+                      length="500"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]"
                       name="Category"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2613,14 +3960,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
-                      length="50"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]"
+                      externalMetadataColumnId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
+                      length="500"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]"
                       name="Product ID"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2635,14 +3982,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[ID]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[ID]"
-                      length="50"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[ID]"
+                      externalMetadataColumnId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      length="500"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[ID]"
                       name="ID"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2660,155 +4007,155 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[City]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[City]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="City" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Quantity]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Quantity" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Order ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Order ID]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Order ID" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Order Date]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Order Date]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Order Date" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Ship Date]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Ship Date]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Ship Date" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Ship Mode]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Ship Mode]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Ship Mode" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Customer ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Customer ID]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Customer ID" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Customer Name]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Customer Name]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Customer Name" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Segment]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Segment]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Segment" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Country]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Country]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Country" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[State]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[State]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="State" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Postal Code]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Postal Code]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Postal Code" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Region]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Region]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product ID]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Product ID" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Category]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Category]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Category" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sub-Category]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Sub-Category" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Product Name]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Product Name" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sales]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Sales]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Sales" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Discount]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Discount]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Discount" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Profit]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[Profit]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="Profit" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[ID]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="ID" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output]"
+                  refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output]"
                   isErrorOut="true"
                   name="Flat File Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       codePage="65001"
                       dataType="text"
                       description="Flat File Source Error Output Column"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       name="Flat File Source Error Output Column" />
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2817,7 +4164,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Load CSV File\OLE DB Destination"
+              refId="Package\Load DimProduct\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -2874,7 +4221,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load CSV File\OLE DB Destination.Connections[OleDbConnection]"
+                  refId="Package\Load DimProduct\OLE DB Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-3USNT1B.biproject]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-3USNT1B.biproject]"
                   description="The OLE DB runtime connection used to access the database."
@@ -2882,96 +4229,96 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product ID]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product ID]"
                       cachedCodepage="65001"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="500"
                       cachedName="Product ID"
-                      externalMetadataColumnId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productID]"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]" />
+                      externalMetadataColumnId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productID]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product ID]" />
                     <inputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product Name]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product Name]"
                       cachedCodepage="65001"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="500"
                       cachedName="Product Name"
-                      externalMetadataColumnId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]" />
+                      externalMetadataColumnId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Product Name]" />
                     <inputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Category]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Category]"
                       cachedCodepage="65001"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="500"
                       cachedName="Category"
-                      externalMetadataColumnId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category]"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]" />
+                      externalMetadataColumnId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Category]" />
                     <inputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Sub-Category]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Sub-Category]"
                       cachedCodepage="65001"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="500"
                       cachedName="Sub-Category"
-                      externalMetadataColumnId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[subcategory]"
-                      lineageId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]" />
+                      externalMetadataColumnId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[subcategory]"
+                      lineageId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output].Columns[Sub-Category]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productID]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productID]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="productID" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[productName]"
                       codePage="65001"
                       dataType="str"
-                      length="300"
+                      length="500"
                       name="productName" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="category" />
                     <externalMetadataColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[subcategory]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[subcategory]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="500"
                       name="subcategory" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load CSV File\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Load DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load CSV File\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Load DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load CSV File\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Load DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load CSV File\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Load DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2982,10 +4329,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Load CSV File.Paths[Flat File Source Output]"
-              endId="Package\Load CSV File\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\Load DimProduct.Paths[Flat File Source Output]"
+              endId="Package\Load DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
-              startId="Package\Load CSV File\Flat File Source 1.Outputs[Flat File Source Output]" />
+              startId="Package\Load DimProduct\Flat File Source 1.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3004,27 +4351,31 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="145.6,41.6"
-          Id="Package\Load CSV File"
+          Size="158.4,41.6"
+          Id="Package\Load DimProduct"
           TopLeft="221.333324538337,57.5466671240065" />
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Load DimCustomer"
+          TopLeft="229.999990860621,133.813334396786" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Load CSV File">
+    design-time-name="Package\Load DimProduct">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171.2,41.6"
-          Id="Package\Load CSV File\OLE DB Destination"
+          Id="Package\Load DimProduct\OLE DB Destination"
           TopLeft="401.696953734967,270.210911238352" />
         <NodeLayout
           Size="160,41.6"
-          Id="Package\Load CSV File\Flat File Source 1"
+          Id="Package\Load DimProduct\Flat File Source 1"
           TopLeft="487.999980608623,116.746667371962" />
         <EdgeLayout
-          Id="Package\Load CSV File.Paths[Flat File Source Output]"
+          Id="Package\Load DimProduct.Paths[Flat File Source Output]"
           TopLeft="567.999980608623,158.346667371962">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3061,7 +4412,134 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Load CSV File\OLE DB Destination">
+    design-time-name="Package\Load DimProduct\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Load DimCustomer">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="151.2,41.6"
+          Id="Package\Load DimCustomer\Flat File Source"
+          TopLeft="266.4,16" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Load DimCustomer\Derived Column"
+          TopLeft="271.2,107.2" />
+        <EdgeLayout
+          Id="Package\Load DimCustomer.Paths[Flat File Source Output]"
+          TopLeft="344.8,57.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49.6"
+              Start="0,0"
+              End="0,42.1">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.1" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load DimCustomer\OLE DB Destination"
+          TopLeft="436.8,242.4" />
+        <NodeLayout
+          Size="156,41.6"
+          Id="Package\Load DimCustomer\Data Conversion"
+          TopLeft="283.2,172" />
+        <EdgeLayout
+          Id="Package\Load DimCustomer.Paths[Derived Column Output]"
+          TopLeft="347.6,148.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.5999999999999,23.2"
+              Start="0,0"
+              End="13.5999999999999,15.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.59999999999998" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.59999999999998"
+                    Point2="0,11.6"
+                    Point3="4,11.6" />
+                  <mssgle:LineSegment
+                    End="9.59999999999985,11.6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.59999999999985,11.6"
+                    Point2="13.5999999999999,11.6"
+                    Point3="13.5999999999999,15.6" />
+                  <mssgle:LineSegment
+                    End="13.5999999999999,15.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load DimCustomer.Paths[Data Conversion Output]"
+          TopLeft="361.2,213.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="161.2,28.8"
+              Start="0,0"
+              End="161.2,21.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.4"
+                    Point2="0,14.4"
+                    Point3="4,14.4" />
+                  <mssgle:LineSegment
+                    End="157.2,14.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="157.2,14.4"
+                    Point2="161.2,14.4"
+                    Point3="161.2,18.4" />
+                  <mssgle:LineSegment
+                    End="161.2,21.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load DimCustomer\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
