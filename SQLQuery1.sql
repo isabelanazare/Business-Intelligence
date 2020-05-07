@@ -12,14 +12,15 @@ PRIMARY KEY(id)
 
 CREATE TABLE Customer(
 id INT NOT NULL IDENTITY(1,1),
-customerID VARCHAR(50),
-customerName VARCHAR(300),
+customerID VARCHAR(500),
+firstName VARCHAR(500),
+lastName VARCHAR(500),
 postalCode INT,
-segment VARCHAR(50),
-country VARCHAR(50),
-customerState VARCHAR(50),
-region VARCHAR(50),
-city VARCHAR(50),
+segment VARCHAR(500),
+country VARCHAR(500),
+customerState VARCHAR(500),
+region VARCHAR(500),
+city VARCHAR(500),
 PRIMARY KEY(id)
 )
 
