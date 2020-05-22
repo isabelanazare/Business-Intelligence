@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
-    <Name>biProject</Name>
-    <LastWriteTime>2020-05-07T10:52:56.5297002Z</LastWriteTime>
+    <Name>Integration</Name>
+    <LastWriteTime>2020-05-19T12:57:58.8531637Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>DimProduct.dtsx</Name>
-      <LastWriteTime>2020-05-07T10:52:56.4605567Z</LastWriteTime>
+      <Name>Package.dtsx</Name>
+      <LastWriteTime>2020-05-19T15:32:06.1068531Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
